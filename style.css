@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #E5E5E5;
+    width: 1920px;
+}
+.top{
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    z-index: -1;
+}
+.wrapper {
+    width: 1240px;
+    margin: 0 340px;
+}
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    width: 219px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0 25px 0;
+}
+.logo_img {
+    max-width: 50px;
+    max-height: 50px;
+}
+.rightangle {
+    width: 3px;
+    height: 47px;
+    background-color: #000;
+}
+.logo_txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+.search {
+    width: 222px;
+    height: 41px;
+}
+.input_search{
+    width: 222px;
+    height: 41px;
+    margin: 30px 0 29px 0;
+    border: 1px solid #000000;
+    background: url("img/3844432_magnifier_search_zoom_icon\ 1.svg") 190px 6px no-repeat;
+}
+.input_search::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+    padding: 11px 131px 11px 14px;
+    transition: 0.9;
+}
+.main{
+    width: 1060px;
+    height: 662px;
+    margin: 268px 121px 268px 59px;
+    display: flex;
+}
+.image_phone {
+    max-width: 540px;
+    max-height: 662px;
+}
+.enter_main {
+    width: 499px;
+    height: 450px;
+    background-color: #ffffff;
+}
+.h1 {
+    padding: 39px 168px 38px 168px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.inputbut {
+    width: 300px;
+    height: 213px;
+    margin: 0 99px 0 100px;
+}
+.login {
+    width: 300px;
+    height: 51px;
+    background-color: #E5E5E5;
+    margin-bottom: 32px;
+}
+.login::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 15px 79px 14px 17px;
+}
+.password {
+    width: 300px;
+    height: 51px;
+    background-color: #E5E5E5;
+    margin-bottom: 32px;
+}
+.password::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 15px 79px 14px 17px;
+}
+.enter_button {
+    width: 300px;
+    height: 48px;
+    background-color: #3F90F0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+}
+.forgot {
+    width: 156px;
+    height: 22px;
+    margin: 43px 100px 55px 87px;
+}
+.forgotpas {
+    color: #000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+}
+.reg {
+    width: 499px;
+    height: 102px;
+    background-color: #ffffff;
+    margin: 35px 0 0 0;
+    display: flex;
+}
+.textspp{
+    width: 333px;
+    height: 22px;
+    margin: 40px 83px 40px 83px;
+}
+.regspn {
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.linkreg {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #3F90F0;
+    cursor: pointer;
+}
